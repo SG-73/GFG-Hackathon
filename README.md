@@ -1,4 +1,4 @@
-# GFG Hackathon – EnviroSense – Smart Air Quality Analytics Platform
+# GFG Hackathon – Smart Air Quality Analytics Platform
 
 ### Overview
 This interactive web application predicts the Air Quality Index (AQI) of different cities based on pollutant concentration levels such as PM2.5, PM10, NO, NO₂, NOx, NH₃, CO, SO₂, O₃, Benzene, Toluene, and Xylene.

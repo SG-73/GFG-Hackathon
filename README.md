@@ -2,6 +2,7 @@
 
 ### Overview
 This interactive web application predicts the Air Quality Index (AQI) of different cities based on pollutant concentration levels such as PM2.5, PM10, NO, NO₂, NOx, NH₃, CO, SO₂, O₃, Benzene, Toluene, and Xylene.
+
 Powered by a machine learning model trained on historical AQI data, the app delivers accurate predictions and offers insights into air quality conditions across regions.
 
 ### Purpose

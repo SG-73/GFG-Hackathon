@@ -1,13 +1,13 @@
 # 
 
 ### Overview
-This web app allows users to generate AQI predictions based on a number of factors, including City name, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, and Xylene concentration levels.
+This web app allows users to generate AQI predictions based on a number of factors, including City name, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, and Xylene concentration levels.  
 The app is powered by a machine learning model that has been trained on a large dataset of historical AQI data. The model takes into account all of the input factors to generate a prediction that is as accurate as possible.
 
 ### Purpose
-•	Planning outdoor activities
-•	Making informed decisions about air quality
-•	Tracking trends in air quality over time
+- Planning outdoor activities
+- Making informed decisions about air quality
+- Tracking trends in air quality over time
 
 ### Features and functionalities
 1. **AQI Prediction:** The core functionality of the app is to generate AQI predictions based on user-provided inputs, including city name and pollutant concentration levels.
@@ -19,11 +19,12 @@ The app is powered by a machine learning model that has been trained on a large 
 7. **Responsive Design:** The app's responsive design ensures that it is accessible and functional on various devices and screen sizes.
 
 ### How to Use the App
-•	Enter the name of the city for which you want to generate a prediction.
-•	Enter the desired values for all of the input factors.
-•	Click the "Calculate" button.
-•	The app will generate a prediction of the AQI for the given location and conditions.
+- Enter the name of the city for which you want to generate a prediction.
+- Enter the desired values for all of the input factors.
+- Click the "Calculate" button.
+- The app will generate a prediction of the AQI for the given location and conditions.
 
-- Prerequisites to run the code (GFG_AQI.ipynb): NIL
-- Prerequisites to run the code (AQI_Prediction.py): Streamlit
-- Prerequisites to run the web app: NIL
+### Prerequisites to run
+- the code (GFG_AQI.ipynb): NIL
+- the code (AQI_Prediction.py): Streamlit
+- the web app: NIL

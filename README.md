@@ -1,30 +1,30 @@
-# 
+# GFG Hackathon – Air Quality Index (AQI) Prediction Web Application
 
 ### Overview
-This web app allows users to generate AQI predictions based on a number of factors, including City name, PM2.5, PM10, NO, NO2, NOx, NH3, CO, SO2, O3, Benzene, Toluene, and Xylene concentration levels.  
-The app is powered by a machine learning model that has been trained on a large dataset of historical AQI data. The model takes into account all of the input factors to generate a prediction that is as accurate as possible.
+This interactive web application predicts the Air Quality Index (AQI) of different cities based on pollutant concentration levels such as PM2.5, PM10, NO, NO₂, NOx, NH₃, CO, SO₂, O₃, Benzene, Toluene, and Xylene.
+Powered by a machine learning model trained on historical AQI data, the app delivers accurate predictions and offers insights into air quality conditions across regions.
 
 ### Purpose
-- Planning outdoor activities
-- Making informed decisions about air quality
-- Tracking trends in air quality over time
+- To assist users in planning outdoor activities safely.  
+- To help individuals and organizations make informed decisions about air quality.  
+- To enable tracking of air quality trends and variations over time.
 
-### Features and functionalities
-1. **AQI Prediction:** The core functionality of the app is to generate AQI predictions based on user-provided inputs, including city name and pollutant concentration levels.
-2. **Input Validation:** To ensure data accuracy, the app validates user inputs, such as city names and pollutant values, to prevent errors or invalid data from being processed.
-3. **Historical Data Analysis:** The app analyzes historical AQI data to provide insights into air quality trends over time for the selected location. This can help users understand seasonal variations and long-term changes.
-4. **AQI Categories and Health Impacts:** The app categorizes the AQI prediction into different levels (e.g., Good, Satisfactory, Moderate, Poor, Very Poor, Severe) and provides information on the associated health impacts, helping users assess the severity of air quality.
-5. **Location Selection:** Users can input the name of a specific city or location to obtain AQI predictions for that area, allowing for personalized and location-specific results.
-6. **Educational Resources:** The app provides information about AQI, air pollutants, and health precautions to educate users about the significance of air quality.
-7. **Responsive Design:** The app's responsive design ensures that it is accessible and functional on various devices and screen sizes.
+### Features and Functionalities
+1. **AQI Prediction:** Generates AQI predictions based on user-provided inputs, including city name and pollutant concentration levels.  
+2. **Input Validation:** Validates user inputs to ensure accurate and reliable predictions.  
+3. **Historical Data Analysis:** Analyzes historical AQI data to identify trends, seasonal variations, and long-term air quality patterns.  
+4. **AQI Categories and Health Impacts:** Classifies AQI into standard categories — *Good, Satisfactory, Moderate, Poor, Very Poor,* and *Severe* — with insights on corresponding health impacts.  
+5. **Location Selection:** Allows users to select or enter a city name to generate location-specific AQI predictions.  
+6. **Educational Insights:** Provides essential information about AQI components, pollutants, and recommended health precautions.  
+7. **Responsive Interface:** The app features a clean, responsive design accessible on desktops, tablets, and mobile devices.
 
 ### How to Use the App
-- Enter the name of the city for which you want to generate a prediction.
-- Enter the desired values for all of the input factors.
-- Click the "Calculate" button.
-- The app will generate a prediction of the AQI for the given location and conditions.
+1. Enter the name of the city for which you want to generate an AQI prediction.  
+2. Provide the pollutant concentration values as inputs.  
+3. Click the **"Calculate"** button to generate the result.  
+4. The app will display the AQI value along with its corresponding category and health impact.
 
-### Prerequisites to run
-- the code (GFG_AQI.ipynb): NIL
-- the code (AQI_Prediction.py): Streamlit
-- the web app: NIL
+### Prerequisites to Run
+- **Code (GFG_AQI.ipynb):** No dependencies required.  
+- **Code (AQI_Prediction.py):** Requires Streamlit.  
+- **Web App:** No setup required for hosted deployment.
